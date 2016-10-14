@@ -1,0 +1,415 @@
+/*   
+Template Name: Unify - Responsive Bootstrap Template
+Description: Business, Corporate, Portfolio and Blog Theme.
+Version: 1.2
+Author: Html Stream
+Website: http://htmlstream.com/preview/unify
+*/
+
+/*Import Google Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*** Page numbers ***/
+.content-pagenation{
+	padding:35px 0;
+	text-align:right;
+}
+.content-pagenation li {
+	display: inline-block;
+}
+.content-pagenation li a {
+	color:#303030;
+	font-size: 0.8em;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	padding: 10px 12px;
+	box-shadow: 0px 0px 5px #ADADAD;
+	-webkit-box-shadow: 0px 0px 2px #ADADAD;
+	-moz-box-shadow: 0px 0px 2px #ADADAD;
+	-o-box-shadow: 0px 0px 2px #ADADAD;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+.content-pagenation li input {
+	color:#303030;
+	font-size: 0.8em;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	padding: 10px 12px;
+	box-shadow: 0px 0px 5px #ADADAD;
+	-webkit-box-shadow: 0px 0px 2px #ADADAD;
+	-moz-box-shadow: 0px 0px 2px #ADADAD;
+	-o-box-shadow: 0px 0px 2px #ADADAD;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+.content-pagenation li a:hover,.content-pagenation li.active a{
+	background:#fc6f25;
+	color:#FFF;
+}
+
+
+
+body { 
+    padding:0;
+	color:#333; 
+    font-size:13px;
+    line-height:1.6;
+	background:#fff;
+}
+
+p, a, li { 
+	color:#555;
+	line-height:1.6; 
+}
+
+a,
+a:focus, 
+a:hover, 
+a:active {
+   outline:0 !important;
+}
+a:hover {
+	color:#fc6f25;
+	text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5 {
+	color:#555; 
+	margin-top:5px; 
+	text-shadow:none; 
+	text-shadow:0 0 1px #f6f6f6;
+	font-weight:normal !important; 
+	font-family:'Open Sans', sans-serif; 
+} 
+h1 i, h2 i, h3 i, h4 i, h5 i {
+	margin-right:7px;
+}
+
+/*Block headline*/
+.heading {
+	padding:5px 20px 5px 20px;
+	border-left:4px solid #27c5f2; 
+}
+
+.headline {
+	display:block;
+	margin:10px 0 25px 0;
+	border-bottom:1px dotted #e4e9f0;
+}
+.headline h3, 
+.headline h4 {
+	color:#585f69;
+	margin:0 0 -2px 0;
+	padding-right:10px;
+	display:inline-block;
+	text-shadow:0 0 1px #f6f6f6;
+	border-bottom:2px solid #fc6f25;
+}
+
+/*Purchase*/
+.purchase {
+	padding:30px 0 20px;
+	box-shadow:inset 0 0 4px #eee;
+	background:url(../img/breadcrumbs.png) repeat;
+}
+.purchase .container {
+	padding:0 20px;
+}
+.purchase .container .span9 {
+	margin-right:20px;
+}
+.purchase span {
+	color:#666;
+	display:block;
+	font-size:32px;
+	line-height:35px;
+	margin-bottom:12px;
+}
+.purchase a.btn-buy {
+	color:#fff;
+	font-size:16px;
+	cursor:pointer;
+	margin-top:22px;
+	font-weight:bold;
+	border-radius:2px;
+	background:#fc6f25;
+	display:inline-block;
+	text-decoration:none;
+	padding:12px 28px 9px;
+	text-transform:uppercase;
+	text-shadow:0 1px 0 #51a00b;
+}
+.purchase a.btn-buy:hover {
+	color:#fff;
+	background:#68af28;
+	text-decoration:none;
+	box-shadow:0 0 5px #c0c2c1;
+} 
+
+/*Service*/
+.service { 
+	margin-bottom:10px;
+	padding:15px 15px 10px;
+}
+.service:hover {
+	border-radius:2px;
+	box-shadow:0 0 8px #ddd;
+	background:#fcfcfc;
+    -webkit-transition:box-shadow 0.2s ease-in-out;
+    -moz-transition:box-shadow 0.2s ease-in-out;
+    -o-transition:box-shadow 0.2s ease-in-out;
+    transition:box-shadow 0.2s ease-in-out;
+}
+.service:hover i {
+	color:#656565;
+}
+.service i {
+	float:left;
+	padding:10px;
+	color:#fc6f25;
+	font-size:45px;  
+	text-align:center;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.service i.icon-cogs {
+	font-size:37px;
+}
+.service .desc {
+	width:100%;
+	float:right;
+}
+.service .desc h4 {
+	font-size:22px;
+	line-height:25px;
+}
+
+.ie7 .service .circle i  {
+	padding-bottom:45px !important; /*ie7*/
+}
+
+/*Blockquote*/
+blockquote:hover {
+	border-left-color:#fc6f25; 
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.hero {
+	padding:18px;
+	margin:20px 0;
+	color:#566c8a;
+	font-size:16px;
+	background:#fcfcfc;
+	border-left:4px solid #94c564; 
+	font-family:'Open Sans', sans-serif;
+}
+.hero h1, .hero p { 
+	text-shadow:1px 1px 0 #fff;
+}
+
+.hero-unify p {
+	font-size:13px;
+	line-height:20px;
+}
+
+
+/* Recent Work  */
+.recent-work a {
+	text-align:center;
+	background:#fcfcfc;
+	display:inline-block;
+}
+
+.recent-work a:hover {
+	text-decoration:none;
+}
+
+.recent-work a:hover strong {
+	color:#555;
+}
+
+.recent-work em.overflow-hidden {
+	display:block;
+}
+
+.recent-work a span {
+	display:block;
+	padding:10px;
+	border-bottom:solid 2px #eee;
+}
+
+.recent-work a strong {
+	color:#555;
+	display:block;
+}
+
+.recent-work a i {
+	color:#777;
+}
+
+.recent-work a img {
+   -webkit-transition: all 0.8s ease-in-out;
+   -moz-transition: all 0.8s ease-in-out;
+
+   -o-transition: all 0.8s ease-in-out;
+   -ms-transition: all 0.8s ease-in-out;
+   transition: all 0.8s ease-in-out;
+}
+
+.recent-work a:hover img {
+	opacity:0.8;
+   -webkit-transform: scale(1.2) rotate(3deg);
+   -moz-transform: scale(1.2) rotate(3deg);
+   -o-transform: scale(1.0) rotate(3deg);
+   -ms-transform: scale(1.2) rotate(3deg);
+   transform: scale(1.2) rotate(3deg);
+}
+
+.recent-work a:hover span {
+	border-bottom:solid 2px #fc6f25;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+/* Work */
+.work {
+	margin-top:6px;
+}
+.work .details {
+	padding:10px;
+}
+.work .caption {
+	display:block;
+	padding-top:5px;
+	color:#585f69 !important;
+	font-size:18px !important;
+}
+.work .caption:hover {
+	cursor:pointer;
+	color:#444 !important;
+	text-decoration:underline;
+}
+
+/* Testimonials */
+.testimonial-body {
+	padding:10px;
+	margin-top:5px;
+	background:#fcfcfc;
+	border:1px solid #f5f5f5;
+}
+.testimonial-author{
+	padding-top:15px;
+	padding-left:20px;
+}
+.testimonial-author .arrow {
+  width:0;
+  height:0;
+  position:absolute;
+  margin-top:-16px;
+  margin-left:20px;
+  border-top:15px solid #fcfcfc;
+  border-bottom:15px solid transparent;
+  border-right:15px solid transparent;
+}
+
+.testimonial-author .name {
+	color:#585f69;
+	font-weight:bold;
+}
+.even {
+background: #F6F6F6;
+}
+.odd {
+	padding: 15px 20px;
+	overflow: hidden;
+	margin-bottom:0px;
+	background: #ffffff;
+	line-height:20px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	line-height:100%;
+
+}
+.copyright {
+    font-size: 12px;
+    padding: 5px 10px;
+    background: none repeat scroll 0% 0% #3E4753;
+    border-top: 1px solid #777;
+}
+* {
+    border-radius: 0px !important;
+}.copyright p {
+color: #dadada;
+}
+.booking-blocks {
+	padding: 15px 20px;
+	overflow: hidden;
+	margin-bottom: 0px;
+	background: #fafafa;
+	line-height:20px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	line-height:100%;
+}
+
+
+
+.booking-blocks .booking-img {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.booking-blocks .booking-img li {
+  color: #777;
+}
+
+.booking-blocks .booking-img li i {
+  color: #78ccf8;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.booking-blocks h2 {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+.odd h2 {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/*Others (Global classes)
+------------------------------------*/
+.color-red { color:#c00;}
+.color-green { color:#fc6f25;}
+.color-blue { color:#3498db;}
+
+.pull-lft { text-align:left;}
+.pull-rgt { text-align:right;}
+
+.rgt-img-margin { margin:4px 0 5px 8px;}
+.lft-img-margin { margin:5px 20px 5px 0;}
+
+.overflow-hidden { overflow:hidden;}
+.padding-left-5 { padding-left:5px;}
+.img-width-200 { width:200px;}
+

@@ -1,0 +1,330 @@
+a:focus, 
+a:hover, 
+a:active {
+	color: #fc6f25;
+}
+
+.color-green {
+	color: #fc6f25;
+}
+
+a.read-more:hover { 
+	color:#fc6f25; 
+}
+
+.linked:hover {
+	color:#fc6f25;
+}
+
+/*Slider
+------------------------------------*/
+.da-slide h2 i {
+	background:url(../../plugins/parallax-slider/img/bg-heading.png) repeat;
+}
+
+/*Purchase
+------------------------------------*/
+.purchase a.btn-buy {
+	background:#fc6f25;
+	text-shadow:0 1px 0 #51a00b;		
+}
+.purchase a.btn-buy:hover {
+	background:#68af28;
+} 
+
+/*Buttons
+------------------------------------*/
+.btn-u {
+	background: #fc6f25;
+}
+
+.btn-u:hover {
+	background: #5fb611;
+}
+
+/*Service
+------------------------------------*/
+.service i {
+	color:#fc6f25;	
+}
+
+/*Welcome Block*/
+.servive-block .span4 h4 a:hover {
+	color:#fc6f25;
+}
+
+.servive-block .span4:hover h4,
+.servive-block .span4:hover i {
+	color:#fc6f25;
+}
+.servive-block-in .span4 i {
+	color:#fc6f25;
+}
+
+/*Service Blocks*/
+.service-alternative .service:hover { 
+	background:#fc6f25;
+} 
+
+/*Thumbnail (Recent Work)
+------------------------------------*/
+.thumbnail-style h3 a:hover {
+	color:#fc6f25;
+}
+
+.thumbnail-style a.btn-more {
+	background:#fc6f25;
+}
+.thumbnail-style a.btn-more:hover {
+	box-shadow:0 0 0 2px #377500;
+}
+
+/*Carousel (Recent Work)*/
+.recent-work a:hover span {
+	border-bottom:solid 2px #fc6f25;
+}
+
+.bx-wrapper .bx-prev {
+	background-image: url(../../plugins/bxslider/images/controls.png);
+}
+.bx-wrapper .bx-next {
+	background-image: url(../../plugins/bxslider/images/controls.png);
+}
+
+/*Typography
+------------------------------------*/
+/*Heading*/
+.headline h3, 
+.headline h4 {
+	border-bottom:2px solid #fc6f25;
+}
+
+/*Blockquote*/
+blockquote:hover {
+	border-left-color:#fc6f25; 
+}
+
+.hero {
+	border-left-color: #fc6f25;
+}
+
+/*Carousel
+------------------------------------*/
+.carousel-arrow a.carousel-control:hover {
+	color: #fc6f25;
+}
+
+/*Footer
+------------------------------------*/
+.footer a,
+.copyright a,
+.footer a:hover,
+.copyright a:hover {
+	color: #fc6f25;
+}
+
+/*Footer Blog*/
+.footer .dl-horizontal a:hover {
+	color:#fc6f25 !important;
+}
+
+
+/*Blog Posts
+------------------------------------*/
+.posts .dl-horizontal:hover { 
+	border-right:solid 2px #fc6f25;
+}
+.posts .dl-horizontal a:hover { 
+	color:#fc6f25; 
+}
+.posts .dl-horizontal:hover dt img,
+.posts .dl-horizontal:hover dd a { 
+	color:#fc6f25;
+	border-color:#fc6f25 !important;
+}
+
+/*Tabs
+------------------------------------*/
+.nav-tabs li.active a, 
+.nav-tabs li.active a:hover,
+.nav-tabs > .active > a, 
+.nav-tabs > .active > a:hover, 
+.nav-tabs > .active > a:focus { 
+	background:#fc6f25; 
+}
+.nav-tabs > li > a:hover { 
+	background:#fc6f25; 
+}
+.tab-content { 
+	border-top:solid 2px #fc6f25; 
+}
+
+/*Accardion
+------------------------------------*/
+.acc-home a.active,
+.acc-home a.accordion-toggle:hover { 
+	color:#fc6f25; 
+}
+.acc-home .collapse.in { 
+	border-bottom:solid 1px #fc6f25; 
+}
+
+/*Testimonials
+------------------------------------*/
+.testimonal-arrow a {
+	color:#fc6f25;
+}
+.testimonal-arrow a:hover {
+	background:#fc6f25 !important;
+}
+
+/*Breadcrumb
+------------------------------------*/
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+	color:#fc6f25;
+}
+
+/*About Page
+------------------------------------*/
+.team .thumbnail-style:hover h3 a {
+	color:#fc6f25 !important;
+}
+
+/*Social Icons*/
+.team ul li i:hover {
+	background:#fc6f25;
+}	
+
+/*Pricing Page
+------------------------------------*/
+/*Pricing Head*/
+.pricing:hover h4 {
+	color:#55c931;
+}
+
+.pricing-head h3 {
+	background:#55c931;
+	text-shadow:0 1px 0 #32a20f;
+	border-bottom:solid 1px #41b91c;
+}
+.pricing-head h4 {
+	color:#999;
+	background:#fbfef2;
+	border-bottom:solid 1px #f5f9e7;
+}
+	
+/*Pricing Content*/
+.pricing-content li {
+	border-bottom:solid 1px #f5f9e7;
+}
+.pricing-content li i {
+	color:#fc6f25;
+}
+
+/*Pricing Footer*/
+.pricing-footer a,
+.pricing-footer button {
+	background:#fc6f25;
+	text-shadow:0 1px 0 #38b312;
+	border-bottom:solid 2px #41b91c;
+}
+.pricing-footer a:hover,
+.pricing-footer button:hover {
+	background:#40ba1a;
+}
+
+/*Priceing Active*/
+.price-active h4 {
+	color:#55c931;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+	color:#55c931;
+}
+
+/*Right Sidebar
+------------------------------------*/
+/*Right Sidebar*/
+.who li i,
+.who li:hover i, 
+.who li:hover a { 
+	color:#fc6f25; 
+}
+
+/*Privacy Page
+------------------------------------*/
+.privacy a:hover {
+	color:#fc6f25; 
+}
+
+/*Portfolio Page
+------------------------------------*/
+.sort li a:hover { 
+	color: #fc6f25; 
+	border-bottom: 1px dotted #fc6f25; 
+}
+.sort li a.selected { 
+	color: #fc6f25; 
+	border-bottom: 1px solid #fc6f25;
+}
+
+.view a.info:hover {
+	background: #fc6f25;
+}
+
+/*Blog Page
+------------------------------------*/
+.blog h3 {
+	color:#fc6f25;
+}
+.blog li a:hover {
+	color:#fc6f25;
+}
+
+/*Blog Tags*/
+ul.blog-tags a:hover,
+ul.blog-tags a:hover i {
+	color:#fc6f25;
+}
+
+/*Blog Ads*/
+.blog-ads li img:hover {
+	box-shadow:0 0 0 4px #fc6f25;
+}
+
+/*Blog Latest Tweets*/
+.blog-twitter p a {
+	color:#fc6f25;
+}
+
+/*Blog Item Page
+------------------------------------*/
+.blog-item h4.media-heading span a {
+	color:#fc6f25;
+}
+
+/*Coming Soon Page
+------------------------------------*/
+.coming-soon-border {
+	border-top: solid 3px #fc6f25;
+}
+
+/*Search Page
+------------------------------------*/
+.booking-blocks p a {
+	color: #fc6f25;
+}
+
+/*Icons Page
+------------------------------------*/
+.icon-page li:hover { 
+	color:#fc6f25;
+}
+
+/*Glyphicons*/
+.glyphicons-demo a:hover {
+	color: #fc6f25;
+	text-decoration: none;
+}
